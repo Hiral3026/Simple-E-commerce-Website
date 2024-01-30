@@ -1,0 +1,82 @@
+/* public/styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #FFA500;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+} 
+  
+nav ul li {
+    display: inline-block; 
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block; 
+    padding: 5px 10px; 
+  }
+  
+  nav ul li a:hover {
+    background-color: rosybrown;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .products {
+    text-align: center;
+  }
+  
+  .product-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .product {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    transition: transform 0.3s; /* Add transition for smooth effect */
+  }
+  
+  .product img:hover {
+    transform: scale(1.1); /* Apply scale transformation on hover */
+  }
+  
+  footer {
+    background-color: #FFA500;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  

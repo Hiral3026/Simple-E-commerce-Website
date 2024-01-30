@@ -1,0 +1,26 @@
+doctype html
+html
+
+  head
+    meta(charset = "utf-8")
+    title #{title} | Miniso
+    link(rel='stylesheet', type="text/CSS", href='/CSS/styles.css')
+
+  body
+    header
+      nav
+        ul
+          li
+            a(href='#') Home
+          li
+            a(href='#') Products
+          li
+            a(href='#') About Us
+          li
+            a(href='#') Contact
+
+    main#main 
+      block main-content 
+      
+    footer
+      p &copy; 2023 Miniso. All rights reserved.
